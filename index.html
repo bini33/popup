@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #ccc;
+        }
+        .popup {
+            background: #fff;
+            width: 300px;
+            height: 250px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .popup button {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            background: none;
+            border: 1px solid #ccc;
+            font-size: 0.8em;
+        }
+        #notice {
+            position: absolute;
+            left: 150px;
+            top: 100px;
+            z-index: 1000;
+        }
+        #pop {
+            position: absolute;
+            left: 500px;
+            top: 100px;
+            z-index: 2000;
+        }
+        #pop button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: none;
+            border: 1px solid #ccc;
+            color: white;
+            font-size: 0.8em;
+        }
+    </style>
+    <title>레이어 팝업창</title>
+</head>
+<body>
+    <p>Welcome to Cindy's Tour!</p>
+    <pre>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Autem inviti facillimis conflixisse ornatus. Sollicitare esset aetatis stoicos divina temperantiamque. Sicine certae collaudata soliditatem theatro posteri, solvantur dicant tenent cupiditates suscepi. Invidia adiit admodum memoriter sua correcta lacinia viderer dictumst deinde. Putem physico, videor lineam praesertim operosam virtutem fructu firmissima studium corrupti. Neque defuit transferrem opinionum expectata dicantur involuta nimium. Inertissimae ad benivolentiam censes, electis expetendis nibh cupiditatibus. Usus exercitationem videamus utriusque platea ficta legendi consecutionem copulationes. Nomini operosam quot collegisti dubio bono, motus, texit accumsan hunc domus. 
+
+    Ullam omnisque conscientia cognosci invitat, copulatas maiorem transferre consule. Medicorum placeat vide istae graeci fortitudinem medium reprehensione. Diligant simplicem reliquaque nominavi, vi dignitatis coniuncta insipientiam. Abest quietem, tortor concordia accusantibus. Vitiis conspiratione occulta sane qualisque. Alios arridens, conciliant correcta cruciantur docendi totam praetermittatur nominant vestibulum. Caeco pariatur clarorum adhuc gloriae. Habeo aliae unum acute quietus. Artis existimant illud dicta nostris, congue virtus altera gloriae. 
+
+    Nobis civium acutum probantur, parentes. Cernimus efficeret ad dis materia consequuntur. Poena nullae aptior ipsius loqueretur quietem meque inane docui singulis faciendum. Disseruerunt disseretur plusque gratia, interesset iucundius priventur expedire, videmus legendos. Potius vestibulum alteram moveat architecto teneam inpotenti liberalitati interpretaris vindicet. 
+
+    Iaculis erga multavit ante odia. Docet libero rogatiuncula, foris copulatas ullamcorper haeret. Seiungi ipsam laudatur perciperet iactare. Dici iudicant nibh ponit triari erit. Ligula interrogari iucundum tria veriusque mediocriterne, nibh sapientiam didicisset horribiles. Caeco erroribus ambigua temperantiam eorumque praeter intellegere sapientium metuque viros. Contentiones expressas morbi saepe atomos. 
+
+    Ferre praesidium caret pondere divelli segniorem, malis salutatus, theatro faciunt ineruditus. Efflorescere infimum amorem provincias secumque exultat intus fieri sociosqu dissident. Accurate confirmare, adiuvet leviora scribendi cursus. Nunc isdem concedo impeditur varius quale. Fidem angusta legendum responsum eventurum secutus amici his. Magnos conubia periculis nonne arbitraretur quid. Explicabo dubium disserui rationis tali. Accedit sibi epicuro cura incorruptis iudicium amicitiae suscipit fortunae. Omnesque iniuste bono superstitione inani dicturum allevatio dicturum posidonium. 
+
+    Natoque tantalo, nasci, omittantur quamquam inveniri moribus utramque. Nostris diuturnitatem solvantur triari periculis. Memoria delectatum status notionem latinam. Proin retinere pulvinar perspici graeca litora. Suavitate poetis modice erunt contentus signiferumque. Laetamur vel tollatur maxime plus. Campum maluisti temporis iuste lucilius dubium dui plerique ponatur. Spernat amori permagna aptissimum se graviterque simul negarent etenim. 
+
+    Improbe solida praeclarorum afficitur intellegi tortor, suscipiet effectrices. Dicebas praetulerit vituperandae, afflueret numquid nam animadversionis, voluptas. Invitat intervenire naturales elit, studio fringilla vel quoddam intervalla gravitate. Conveniunt metuamus invitat ignavia corrupti, appetendi inportuno videor sicine sollicitant, vitiis. Diligenter fugiendam notae necessariae reperire epicureum effugiendorum fere. Efficerent affirmatis impeditur insatiabiles, centurionum vivatur brevi. 
+
+    Commodi pertinacia intellegerem optimus discere scipio, credo accusata aegritudines aristotele maximam. Recte directam nostri perdiscere aeque. Segniorem ambigua obiecta reliquaque augue physici. Ullius praetorem expeteremus responsum sodales oderis. Habeo in assiduitas legemus inani. Ordiamur tantum decore conficiuntque iudiciorumque, multos depravata videntur atomorum. Maximis nullam maiora, omne incorruptis. 
+
+    Convicia latinam, exultat discordia genuit, statue efflorescere, iudicium, libidinum taciti. Lectorem adhaesiones minus intereant penitus, sentire affirmatis spatio tolerabiles. Statua reliquisti theseo suscipiantur malesuada parabilis re, omni fecerint. Dominationis huius naturam aperiri amaret homines iustitia stabilem. Theatro inveniri, contemnit theophrasti antipatrum animadversionem. 
+
+    Id testibus assumenda dixit maiestatis dicent refert accommodare magnopere evertitur. Impediente dissentias ponatur comparat naturales eitam nulli duo facerem nocet, multoque. Quondam legatis dicenda, bene, loquuntur. Eriguntur oderis istae partes convicia. Sumitur respondendum artifex neglexerit labore. 
+
+    Praesidium iucunditas accumsan oderis depravare certissimam. Adipiscendarum augendas fugiendam tempor cruciantur magistra sin. Nullae incurreret, tu earumque vis dicturum firmissima videatur laboriosam. Ceramico honestatis magnam tamquam assumenda videbitur delectatum. Inciderint perspiciatis inveneris infantes potiendi. Mediocrem vim donec exultat praesentibus, quisquam erimus bona optimi graviter, sanos. 
+
+    Confirmavit rationem hae vituperatoribus duce velint veriusque. Inferiorem personae platonis, affectus quisquam quid, multam ignorare neglexerit. Expectamus optabilem percipit dignissimos civitatis habent. Faciant futuros inceptos animo facio, dulce phaedrum, disserui minuendas satis. Minuti leo vituperari aeternum inprobis. Misisti vita, finiri iucunditatem quisque, successerit. Perpetuam graecis consuetudinum nostri, ancillae egestas suaviter. Iuberet tu distinctio inprobitas inveniri familiaritatem wisi virtutes diam. Accumsan doloribus intus nosmet consul antiqua bella expeteretur. 
+
+    Aliquem quidque, versuum denique concursio atomorum ullamcorper duo quantus cupiditatibus. Honestum mentitum ipsis democriti interdum praeterierunt detraxisse. Tribus privavisse mox debeo nostris explicatis platone, iudicat dixerit is quosque. Audivi indignius ponendam virtutem tamquam, appetendum musicis collegi sapiente nimis oderis. Conetur modo studiis auctori, existimo tibi probabis parta. 
+
+    Hendrerit adquiescere inhaererent studium fuerit videamus. Illas nivem videtur filio sentio, chrysippe evertitur silano. Eodem istis arbitratu vindicet recusandae legendi diu principes. Dubitat delectant sapientium graece illius ignavia pertinerent. Hortatore horum vulgo parturient interea impediri repellat beateque acuti. Propter terrore necesse eadem domesticarum retinent convincere tollit, isti intellegam refugiendi. Concursio eisque intereant meo delectet posidonium. Physico cognitionis fastidii quaerendum iucunditas potione patet meo postulet. 
+
+    Expectat percipit, libero duxit ostendis que copulatas mutans. Perpetua minima fidelissimae praetorem familias veri theatro, fecisse. Metrodorus primisque argumentandum illum didicisse. Honestatis exquisitis silano inmensae stoici. Neglexerit ipsum malit quippiam referuntur sequi reformidans improbis rebus dicere.
+    </pre>
+
+    <!-- 레이어 팝업창(가장 위 혹은 가장 아래 작성) -->
+    <div id="notice" class="popup">
+        <h2>Check the <br> Christmas Market!</h2>
+        <ul>
+            <li>Austria</li>
+            <li>France</li>
+            <li>German</li>
+            <li>Swiss</li>
+            <li>Netherland</li>
+        </ul>
+        <button>닫기</button>
+    </div>
+
+    <div id="pop">
+        <img src="img/popup.jpg" alt="팝업">
+        <button>닫기</button>
+    </div>
+
+    <script>
+        let closeBtn = document.querySelector('.popup > button');
+
+        closeBtn.addEventListener('click', function(){
+            document.querySelector('.popup').style.display='none'; //선택인자
+            document.querySelector('body').style.background='#fff';
+        });
+        // addEventListener : 이벤트 처리기
+
+        let popup = document.querySelector('#pop');
+        popup.addEventListener('click', function(){
+            document.querySelector('#pop').style.display='none';
+            document.querySelector('body').style.background='#fff';
+        });
+
+        
+    </script>
+</body>
+</html>
